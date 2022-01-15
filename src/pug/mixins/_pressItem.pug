@@ -1,0 +1,8 @@
+mixin pressItem(img, date, title, text)
+	a(href="article.html").press__item.press-new.animate__animated
+		.press-new__img 
+			img(src="img/" + img, alt="new")
+			span #{date}
+		.press-new__text 
+			.press-new__title.title-2 #{title}
+			p #{text}

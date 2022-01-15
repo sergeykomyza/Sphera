@@ -1,0 +1,17 @@
+.mailing 
+	.container 
+		.row 
+			.col 
+				.mailing__box 
+					img.mailing__icon(src="img/mail.png", alt="mail")
+					.mailing__subscription 
+						.mailing__title Подписаться на рассылку новостей
+						.mailing__form.mailing-form 
+							input.mailing-form__input(type="text" placeholder="E-mail")
+							.mailing-form__agree.agree 
+								input#checkbox.agree__check(type="checkbox" checked)
+								label.agree__label.agree__label--checkbox(for="checkbox") 
+									span Я согласен с политикой обработки
+										<br>
+										a(href="") персональных данных
+							button.mailing-form__button подписаться

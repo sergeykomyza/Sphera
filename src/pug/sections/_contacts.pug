@@ -1,0 +1,31 @@
+section.contacts
+	.container 
+		.row 
+			.col 
+				.contacts__box 
+					.contacts__data.data-contacts 
+						h4.data-contacts__title.title Контакты
+						a.data-contacts__item(href="tel:+74951235793") +7 (495) 123-57-93
+						a.data-contacts__item(href="mailto:info@sphera-invest.ru") info@sphera-invest.ru
+						span.data-contacts__adress 115114 г. Москва, ул. Дербеневская, 24
+						button.data-contacts__button 
+							span проложить маршрут
+							img(src="img/icon_arrow.svg", alt="icon_arrow")
+						.data-contacts__map#map 
+					.contacts__form.contacts-form.animate__animated 
+						.contacts-form__title.title Задать вопрос
+						.contacts-form__item 
+							label.contacts-form__label Ф.И.О 
+							input.contacts-form__input(type="text")
+						.contacts-form__item 
+							label.contacts-form__label ваш телефон 
+							input.contacts-form__input(type="text")
+						.contacts-form__item 
+							label.contacts-form__label ваше сообщение 
+							textarea.contacts-form__message
+						.contacts-form__agree.agree
+							input#checkbox1.agree__check(type="checkbox" checked)
+							label.agree__label.agree__label--checkbox(for="checkbox1") 
+								span Согласен на обработку 
+									a(href="") персональных данных
+						button.contacts-form__button отправить
